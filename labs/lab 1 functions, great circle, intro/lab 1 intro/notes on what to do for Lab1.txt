@@ -1,0 +1,2 @@
+Re-run the albedos calculation in Matlab
+Check the code to be sure that it matches the output

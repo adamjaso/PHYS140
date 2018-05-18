@@ -1,0 +1,21 @@
+%temperature.m
+%This program calculates the temperature of a planet given the latitude, lat, the luminosity, L,
+%the albedo, A, and the distance from star to planet, r.
+
+albedoes=[.1,.4];
+emissivities=[.97,1.0,.8,.5];
+lat = 0;    %input('Enter the latitude: ')
+L = 1;      %input('Enter the luminosity: ')
+%A = input('Enter the albedo: ');
+r = 1;      %input('Enter the distance from planet to star: ')
+%emissivity = input('Enter the emissivity: ');
+temp = 395 * ( ( L * ( 1 - A ) * cos( lat ) ) / ( emissivity * r ^ 2 ) );
+fahr = 9 / 5 * ( temp - 273.15 ) + 32;
+fprintf('The temperature of the planet is %10f Kelvin and %10f Fahrenheit\n',temp,fahr);
+
+for R=1:2,
+    for C=1:4,
+        A=albedoes(1,1);
+        L
+    end
+end

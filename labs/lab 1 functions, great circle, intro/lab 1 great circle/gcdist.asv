@@ -1,0 +1,12 @@
+%gcdist.m
+%This program calculates the total of minimum great circle distances from
+%latitude and longitude coordinates of different cities on the surface of
+%an (approximately) spherical earth
+
+cities=input('Enter the number of cities to be visited: ');
+count=1;
+coords(1,2)=input('Enter city #%d',count);
+while count < cities,
+    coords=[coords;input('Enterc
+    count=count+1;
+end

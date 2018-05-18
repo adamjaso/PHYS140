@@ -1,0 +1,7 @@
+>> trap
+Enter the interval start: 0
+Enter the interval end:   pi/2
+Enter the error margin:   1e-6
+INT(sin(x),x,0.000000,1.570796) = 0.9999995792
+err < 0.0000010000
+n = 800

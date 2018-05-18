@@ -1,0 +1,22 @@
+%frustum.m
+%This script takes input for the height and volume of a cone and returns
+%the design parameters of the cone: r1 the small radius, r2 the large radius, and S the surface area
+
+h=input('Enter the starting Height: h = ');
+hf=input('Enter the ending Height: hf = ');
+V=input('Enter the Volume: V = ');
+
+R1=sqrt(3*V/(3.8125*pi*h));
+R2=1.25*R1;
+S=pi*(R1+R2)*sqrt((R2-R1)^2+h^2)+pi*R1^2;
+
+while h <= hf,
+    R1=sqrt(3*V/(3.8125*pi*h));
+    R2=1.25*R1;
+    S=pi*(R1+R2)*sqrt((R2-R1)^2+h^2)+pi*R1^2;
+    fprintf('For a paper cup of height, h = %6.4f\n',h);
+    fprintf('     R1 = %6.4f\n',R1);
+    fprintf('     R2 = %6.4f\n',R2);
+    fprintf('     S  = %d\n',S);
+    h=h+1;
+end

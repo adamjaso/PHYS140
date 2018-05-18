@@ -1,0 +1,7 @@
+>> simp
+Enter the interval start: 0
+Enter the interval end:   pi/2
+Enter the intervals:      1200
+Enter the error margin:   1e-6
+INT(sin(x),x,0.000000,1.570796) = 0.9998958755
+err < 0.0000010000 is false

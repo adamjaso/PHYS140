@@ -1,0 +1,17 @@
+%limits of integration
+a=0;
+b=1/3;
+
+%scaled table values
+zi=(1/2*(b-a))*xtab+1/2*(b+a);
+wi=(b-a)/2*wtab;
+
+%summation
+I=0;
+for i=1:length(zi)
+    I=I+wi(i)*f1(zi(i));
+end
+I=A*I;
+
+%return value
+fprintf('%f\n', I);

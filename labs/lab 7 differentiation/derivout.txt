@@ -1,0 +1,11 @@
+>> derivative(2)
+h = 0.500000   backward: df/dx = 16.111157   forward:  df/dx = 31.356245   central:  df/dx = 22.553702
+h = 0.450000   backward: df/dx = 16.611852   forward:  df/dx = 30.251861   central:  df/dx = 22.480000
+h = 0.400000   backward: df/dx = 17.133151   forward:  df/dx = 29.193778   central:  df/dx = 22.414161
+h = 0.350000   backward: df/dx = 17.675987   forward:  df/dx = 28.179933   central:  df/dx = 22.356148
+h = 0.300000   backward: df/dx = 18.241339   forward:  df/dx = 27.208358   central:  df/dx = 22.305931
+h = 0.250000   backward: df/dx = 18.830230   forward:  df/dx = 26.277174   central:  df/dx = 22.263485
+h = 0.200000   backward: df/dx = 19.443734   forward:  df/dx = 25.384588   central:  df/dx = 22.228787
+h = 0.150000   backward: df/dx = 20.082974   forward:  df/dx = 24.528889   central:  df/dx = 22.201818
+h = 0.100000   backward: df/dx = 20.749128   forward:  df/dx = 23.708446   central:  df/dx = 22.182565
+h = 0.050000   backward: df/dx = 21.443428   forward:  df/dx = 22.921701   central:  df/dx = 22.171017

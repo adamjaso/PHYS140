@@ -1,0 +1,25 @@
+>> derivative(2)
+1st Derivatives
+h = 0.005000   backward: df/dx = 22.093431   forward:  df/dx = 22.241213   central:  df/dx = 22.167322   central2:  df/dx = 22.167322
+h = 0.004500   backward: df/dx = 22.100791   forward:  df/dx = 22.233795   central:  df/dx = 22.167293   central2:  df/dx = 22.167293
+h = 0.004000   backward: df/dx = 22.108154   forward:  df/dx = 22.226379   central:  df/dx = 22.167267   central2:  df/dx = 22.167267
+h = 0.003500   backward: df/dx = 22.115520   forward:  df/dx = 22.218967   central:  df/dx = 22.167244   central2:  df/dx = 22.167244
+h = 0.003000   backward: df/dx = 22.122889   forward:  df/dx = 22.211558   central:  df/dx = 22.167224   central2:  df/dx = 22.167224
+h = 0.002500   backward: df/dx = 22.130261   forward:  df/dx = 22.204152   central:  df/dx = 22.167207   central2:  df/dx = 22.167207
+h = 0.002000   backward: df/dx = 22.137637   forward:  df/dx = 22.196749   central:  df/dx = 22.167193   central2:  df/dx = 22.167193
+h = 0.001500   backward: df/dx = 22.145015   forward:  df/dx = 22.189349   central:  df/dx = 22.167182   central2:  df/dx = 22.167182
+h = 0.001000   backward: df/dx = 22.152396   forward:  df/dx = 22.181953   central:  df/dx = 22.167174   central2:  df/dx = 22.167174
+h = 0.000500   backward: df/dx = 22.159781   forward:  df/dx = 22.174559   central:  df/dx = 22.167170   central2:  df/dx = 22.167170
+
+2nd Derivatives
+h = 0.005000   backward: d2f/dx = 29.372143   forward:  d2f/dx = 29.741599   central:  d2f/dx = 29.556317
+h = 0.004500   backward: d2f/dx = 29.390493   forward:  d2f/dx = 29.723003   central:  d2f/dx = 29.556299
+h = 0.004000   backward: d2f/dx = 29.408856   forward:  d2f/dx = 29.704420   central:  d2f/dx = 29.556284
+h = 0.003500   backward: d2f/dx = 29.427232   forward:  d2f/dx = 29.685850   central:  d2f/dx = 29.556270
+h = 0.003000   backward: d2f/dx = 29.445621   forward:  d2f/dx = 29.667293   central:  d2f/dx = 29.556258
+h = 0.002500   backward: d2f/dx = 29.464023   forward:  d2f/dx = 29.648749   central:  d2f/dx = 29.556247
+h = 0.002000   backward: d2f/dx = 29.482437   forward:  d2f/dx = 29.630219   central:  d2f/dx = 29.556239
+h = 0.001500   backward: d2f/dx = 29.500865   forward:  d2f/dx = 29.611701   central:  d2f/dx = 29.556233
+h = 0.001000   backward: d2f/dx = 29.519305   forward:  d2f/dx = 29.593196   central:  d2f/dx = 29.556228
+h = 0.000500   backward: d2f/dx = 29.537758   forward:  d2f/dx = 29.574703   central:  d2f/dx = 29.556225
+acceleration = 30.914000 m/s^2

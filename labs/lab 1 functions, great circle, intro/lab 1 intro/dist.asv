@@ -1,0 +1,13 @@
+function distance = dist(coord1,coord2,degrad)
+%This function calculates the great circle distance between two sets of
+%latitude and longitude coordinates
+
+%theta = latitude
+%phi = longitude
+radiusOfEarth = 6371.01;
+theta1 = coord1(2);
+theta2 = coord2(2);
+phi1 
+ANGLE=acos( sin( coord1(1) ) * sin( coord2(1;
+
+distance = radiusOfEarth * ANGLE
